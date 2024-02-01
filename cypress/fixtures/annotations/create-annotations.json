@@ -8,8 +8,12 @@
     },
     {
       "target": "goterm",
-      "input": "lipid binding",
-      "optionId": "GO:0008289"
+      "input": "transport ",
+      "optionId": "GO:0006810"
+    },
+    {
+      "target": "gpterm-relation",
+      "optionId": "acts upstream of or within, negative effect"
     },
     {
       "target": "goterm-evidence-0",
