@@ -1,0 +1,266 @@
+{
+  "url": "http://localhost:8910/",
+  "annotations": [
+    [
+      {
+        "target": "gp",
+        "input": "ABCA1 Hsap",
+        "optionId": "UniProtKB:O95477"
+      },
+      {
+        "target": "goterm",
+        "input": "binding",
+        "optionId": "GO:0005488"
+      },
+      {
+        "target": "goterm-relation",
+        "optionId": "enabled by"
+      },
+      {
+        "target": "goterm-evidence-0",
+        "input": "documented statement evidence used in manual assertion",
+        "optionId": "ECO:0006155"
+      },
+      {
+        "target": "goterm-reference-0",
+        "input": "PMID:1111"
+      },
+      {
+        "target": "goterm-with-0",
+        "input": "WB:111"
+      }
+    ],
+    [
+      {
+        "target": "gp",
+        "input": "ABCA3 Hsap",
+        "optionId": "UniProtKB:Q99758"
+      },
+      {
+        "target": "goterm",
+        "input": "transport",
+        "optionId": "GO:0006810"
+      },
+      {
+        "target": "goterm-relation",
+        "optionId": "enabled by"
+      },
+      {
+        "target": "goterm-evidence-0",
+        "input": "pharmacological assay evidence used in manual assertion",
+        "optionId": "ECO:0006054"
+      },
+      {
+        "target": "goterm-reference-0",
+        "input": "PMID:3333"
+      },
+      {
+        "target": "goterm-with-0",
+        "input": "WB3333"
+      }
+    ],
+    [
+      {
+        "target": "gp",
+        "input": "ABCA4 Hsap",
+        "optionId": "UniProtKB:P78363"
+      },
+      {
+        "target": "goterm",
+        "input": "lipid transport",
+        "optionId": "GO:0006869"
+      },
+      {
+        "target": "goterm-relation",
+        "optionId": "enabled by"
+      },
+      {
+        "target": "goterm-evidence-0",
+        "input": "documented statement evidence used in manual assertion",
+        "optionId": "ECO:0006155"
+      },
+      {
+        "target": "goterm-reference-0",
+        "input": "PMID:4444"
+      },
+      {
+        "target": "goterm-with-0",
+        "input": "WB:4444"
+      }
+    ],
+    [
+      {
+        "target": "gp",
+        "input": "ABCA5 Hsap",
+        "optionId": "UniProtKB:Q8WWZ7"
+      },
+      {
+        "target": "goterm",
+        "input": "nuclear transport",
+        "optionId": "GO:0051169"
+      },
+      {
+        "target": "goterm-relation",
+        "optionId": "enabled by"
+      },
+      {
+        "target": "goterm-evidence-0",
+        "input": "pharmacological assay evidence used in manual assertion",
+        "optionId": "ECO:0006054"
+      },
+      {
+        "target": "goterm-reference-0",
+        "input": "PMID:5555"
+      },
+      {
+        "target": "goterm-with-0",
+        "input": "WB:5555"
+      }
+    ],
+    [
+      {
+        "target": "gp",
+        "input": "ABCA6 Hsap",
+        "optionId": "UniProtKB:Q8N139"
+      },
+      {
+        "target": "goterm",
+        "input": "regulation of cellotriose transport",
+        "optionId": "GO:1900285"
+      },
+      {
+        "target": "goterm-relation",
+        "optionId": "enabled by"
+      },
+      {
+        "target": "goterm-evidence-0",
+        "input": "recessive mutant phenotype evidence used in manual assertion",
+        "optionId": "ECO:0006101"
+      },
+      {
+        "target": "goterm-reference-0",
+        "input": "PMID:6666"
+      },
+      {
+        "target": "goterm-with-0",
+        "input": "WB:6666"
+      }
+    ],
+    [
+      {
+        "target": "gp",
+        "input": "ABCA7 Hsap",
+        "optionId": "UniProtKB:Q8IZY2"
+      },
+      {
+        "target": "goterm",
+        "input": "negative regulation of cellotriose transport",
+        "optionId": "GO:1900286"
+      },
+      {
+        "target": "goterm-relation",
+        "optionId": "enabled by"
+      },
+      {
+        "target": "goterm-evidence-0",
+        "input": "documented statement evidence used in manual assertion",
+        "optionId": "ECO:0006155"
+      },
+      {
+        "target": "goterm-reference-0",
+        "input": "PMID:7777"
+      },
+      {
+        "target": "goterm-with-0",
+        "input": "WB:7777"
+      }
+    ],
+    [
+      {
+        "target": "gp",
+        "input": "ABCA8 Hsap",
+        "optionId": "UniProtKB:O94911"
+      },
+      {
+        "target": "goterm",
+        "input": "nucleus",
+        "optionId": "GO:0005634"
+      },
+      {
+        "target": "goterm-relation",
+        "optionId": "enabled by"
+      },
+      {
+        "target": "goterm-evidence-0",
+        "input": "pharmacological assay evidence used in manual assertion",
+        "optionId": "ECO:0006054"
+      },
+      {
+        "target": "goterm-reference-0",
+        "input": "PMID:8888"
+      },
+      {
+        "target": "goterm-with-0",
+        "input": "WB:8888"
+      }
+    ],
+    [
+      {
+        "target": "gp",
+        "input": "ABCA9 Hsap",
+        "optionId": "UniProtKB:Q8IUA7"
+      },
+      {
+        "target": "goterm",
+        "input": "left nucleus",
+        "optionId": "GO:0097571"
+      },
+      {
+        "target": "goterm-relation",
+        "optionId": "located_in"
+      },
+      {
+        "target": "goterm-evidence-0",
+        "input": "documented statement evidence used in manual assertion",
+        "optionId": "ECO:0006155"
+      },
+      {
+        "target": "goterm-reference-0",
+        "input": "PMID:9999"
+      },
+      {
+        "target": "goterm-with-0",
+        "input": "WB:9999"
+      }
+    ],
+    [
+      {
+        "target": "gp",
+        "input": "ABCA2 Hsap",
+        "optionId": "UniProtKB:Q9BZC7"
+      },
+      {
+        "target": "goterm",
+        "input": "lipid binding",
+        "optionId": "GO:0008289"
+      },
+      {
+        "target": "goterm-relation",
+        "optionId": "has part"
+      },
+      {
+        "target": "goterm-evidence-0",
+        "input": "recessive mutant phenotype evidence used in manual assertion",
+        "optionId": "ECO:0006101"
+      },
+      {
+        "target": "goterm-reference-0",
+        "input": "PMID:222"
+      },
+      {
+        "target": "goterm-with-0",
+        "input": "WB:222"
+      }
+    ]
+  ]
+}

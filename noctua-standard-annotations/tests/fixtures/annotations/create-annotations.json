@@ -1,0 +1,85 @@
+{
+  "modelId": "gomodel:66a17f1700000000",
+  "modelUrl": "http://localhost:8910/?model_id=",
+  "annotations": [
+    [
+      {
+        "target": "gp",
+        "input": "air-2 Cel",
+        "optionId": "WB:WBGene00000099"
+      },
+      {
+        "target": "goterm",
+        "input": "transport ",
+        "optionId": "GO:0006810"
+      },
+      {
+        "target": "gpterm-relation",
+        "optionId": "acts upstream of or within, negative effect"
+      },
+      {
+        "target": "goterm-evidence-0",
+        "input": "evidence used in manual asserti",
+        "optionId": "ECO:0000352"
+      },
+      {
+        "target": "goterm-reference-0",
+        "input": "PMID:12345"
+      },
+      {
+        "target": "goterm-with-0",
+        "input": "WB:WBGene00000099"
+      }
+    ],
+    [
+      {
+        "target": "gp",
+        "input": "air-2 Cele",
+        "optionId": "WB:WBGene00000099"
+      },
+      {
+        "target": "goterm",
+        "input": "transport ",
+        "optionId": "GO:0006810"
+      },
+      {
+        "target": "goterm-evidence-0",
+        "input": "evidence used in manual asserti",
+        "optionId": "ECO:0000352"
+      },
+      {
+        "target": "goterm-reference-0",
+        "input": "PMID:12345"
+      },
+      {
+        "target": "goterm-with-0",
+        "input": "WB:WBGene00000099"
+      }
+    ],
+    [
+      {
+        "target": "gp",
+        "input": "air-2 Cele",
+        "optionId": "WB:WBGene00000099"
+      },
+      {
+        "target": "goterm",
+        "input": "lipid binding",
+        "optionId": "GO:0008289"
+      },
+      {
+        "target": "goterm-evidence-0",
+        "input": "evidence used in manual asserti",
+        "optionId": "ECO:0000352"
+      },
+      {
+        "target": "goterm-reference-0",
+        "input": "PMID:12345"
+      },
+      {
+        "target": "goterm-with-0",
+        "input": "WB:WBGene00000099"
+      }
+    ]
+  ]
+}
