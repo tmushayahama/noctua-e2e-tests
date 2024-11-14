@@ -30,11 +30,8 @@ test.describe('Create a Standard Annotation', () => {
   });
 
   test('Types into a textarea and checks autocomplete', async ({ annotationPage, page }) => {
-    // await page.waitForTimeout(100000);
-    await page.locator('[data-pw="create-standard-annotations-button"]').click();
+    await annotationPage.openCreateAnnotationPage();
     for (const annotations of createAnnotationsData.annotations) {
-      await annotationPage.visit(createAnnotationsData.modelUrl, createAnnotationsData.modelId);
-
       for (const annotation of annotations) {
         await selectFromAutocomplete(
           page,

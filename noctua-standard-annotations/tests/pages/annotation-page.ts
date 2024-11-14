@@ -1,4 +1,4 @@
-import { Page } from '@playwright/test';
+import { expect, Page } from '@playwright/test';
 
 export class AnnotationPage {
   constructor(private page: Page) { }
@@ -6,6 +6,19 @@ export class AnnotationPage {
   async visit(url: string, modelId: string): Promise<void> {
     await this.page.goto(url + modelId);
     // Add more things here as needed
+  }
+
+  async openCreateAnnotationPage(): Promise<void> {
+    await this.page.locator('[data-pw="create-standard-annotations-button"]').click();
+    await this.page.waitForTimeout(10000);
+
+    const mainLogo = this.page.locator('.noc-main-logo');
+    if (await mainLogo.isVisible()) {
+      await expect(this.page.locator('.noc-main-logo')).toHaveText(' Noctua ');
+      await expect(this.page.locator('.noc-sub-logo')).toContainText('Standard Annotations');
+    } else {
+      console.log('Main logo not found');
+    }
   }
 
   async login(): Promise<void> {
