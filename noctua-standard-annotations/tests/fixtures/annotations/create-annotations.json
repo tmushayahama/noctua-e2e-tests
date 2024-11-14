@@ -1,6 +1,7 @@
 {
-  "modelId": "gomodel:66a17f1700000000",
-  "modelUrl": "http://localhost:8910/?model_id=",
+  "baseUrl": "http://localhost:8910",
+  "modelId": "gomodel:6732875f00000024",
+  "modelUrl": "http://localhost:8910/workbench/noctua-standard-annotations?model_id=",
   "annotations": [
     [
       {

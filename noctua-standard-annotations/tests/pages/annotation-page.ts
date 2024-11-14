@@ -9,7 +9,7 @@ export class AnnotationPage {
   }
 
   async login(): Promise<void> {
-    const loginButton = this.page.locator('[data-cy="noc-login-button"]');
+    const loginButton = this.page.locator('[data-pw="noc-login-button"]');
     if (await loginButton.isVisible()) {
       await loginButton.click();
 
@@ -17,8 +17,6 @@ export class AnnotationPage {
       await this.page.locator('input[name="username"]').fill('gotremayne');
       await this.page.locator('input[name="password"]').fill('artist12345');
       await this.page.locator('button:has-text("Submit")').click();
-
-      await this.page.waitForTimeout(1000);
       await this.page.locator('#return-trip-login').click();
     } else {
       console.log('Login button not found');
